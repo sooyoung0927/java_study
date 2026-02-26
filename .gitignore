@@ -1,0 +1,26 @@
+# IntelliJ IDEA 프로젝트 파일 (설정, 모듈 등)
+.idea/
+*.iml
+*.iws
+out/
+gen/
+
+# Maven/Gradle 빌드 파일 및 결과물
+target/
+build/
+.gradle/
+.settings/
+.project
+.classpath
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+
+# 로그 및 데이터 파일
+*.log
+*.tmp
+*.bak
+
+# 외부 라이브러리 (필요시)
+lib/

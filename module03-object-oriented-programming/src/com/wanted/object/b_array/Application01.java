@@ -31,13 +31,23 @@ public class Application01 {
         *  정수 : 0
         *  실수 : 0.0
         *  논리 : false
-        *  문자 : \u000
-        *  참조형 : null*/
+        *  문자 : 유니코드
+        *  참조형 : null */
 
-        // 배열에 들어있는 값에 접근하는 방법
-        for (int i =0; i< iarr.length;i++){
-            System.out.println("iarr["+i+"] = "+iarr[i]);
+        // 10개의 정수가 들어갈 수 있는 배열 생성
+        int[] iarr2 = new int[10];
+
+        // 배열에 들어있는 값에 접근하는 방법 : 변수명[공간번호 (인덱스)]
+        for (int i =0; i< iarr2.length;i++){
+            System.out.println("iarr2["+i+"] = "+iarr2[i]);
         }
+
+        String[] sarr = new String[5];
+        for (int i =0; i< sarr.length;i++){
+            System.out.println("sarr["+i+"] = "+sarr[i]);
+        }
+
+        System.out.println("NullPointerException 발생 "+sarr[4].length());
 
     }
 }

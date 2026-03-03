@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class num5 {
     public static void main(String[] args) {
-    }
-    public void practice5(){
+
         String ID = "sooy";
         String PW = "Asd";
 

@@ -4,11 +4,8 @@ import java.util.Scanner;
 
 public class num2 {
     public static void main(String[] args) {
-    }
 
-    public void practice2(){
-
-        System.out.print("값을 입력하세요 : ");
+    System.out.print("값을 입력하세요 : ");
         Scanner sc = new Scanner(System.in);
         int age = sc.nextInt();
 

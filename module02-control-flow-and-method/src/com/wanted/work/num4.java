@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class num4 {
     public static void main(String[] args) {
-    }
 
-    public void practice4(){
         System.out.print("1~12사이의 정수 입력 : ");
         Scanner sc = new Scanner(System.in);
         int month = sc.nextInt();

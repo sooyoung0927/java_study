@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class num3 {
     public static void main(String[] args) {
-    }
 
-    public void practice3(){
         Scanner sc = new Scanner(System.in);
 
         System.out.print("국어 점수 : ");

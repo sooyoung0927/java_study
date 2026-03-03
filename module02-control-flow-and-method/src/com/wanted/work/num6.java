@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class num6 {
     public static void main(String[] args) {
-    }
 
-    public void practice6(){
         Scanner sc = new Scanner(System.in);
 
         System.out.print("권한을 확인하고자 하는 회원 등급 : ");

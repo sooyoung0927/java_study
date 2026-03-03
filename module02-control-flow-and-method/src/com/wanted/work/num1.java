@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class num1 {
     public static void main(String[] args) {
-
     }
+
     public void practice1(){
 
         String[] menu={"입력","수정","조회","삭제","종료"};

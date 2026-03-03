@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class num8 {
     public static void main(String[] args) {
-    }
-    public void pracice8(){
+
         char[] sign = {'+','-','*','/','%'};
 
         Scanner sc = new Scanner(System.in);

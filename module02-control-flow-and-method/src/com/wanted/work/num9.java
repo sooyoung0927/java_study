@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class num9 {
     public static void main(String[] args) {
-    }
 
-    public void practice9(){
         Scanner sc = new Scanner(System.in);
 
         System.out.print("중간고사 점수 : ");

@@ -54,5 +54,6 @@ public class Application {
 //        monster3.hp=5500;
 
 
+
     }
 }

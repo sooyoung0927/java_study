@@ -10,7 +10,7 @@ public class Application {
         *  필드에 바로 접근할 때 발생할 수 있는 문제 확인
         *  Monster 클래스에 변수명을 수정하자마자 그 변수를 사용하던 코드에서 에러가 발생
         *  -> 작은 변경이 사용하는 다른 여러 곳에 함께 초래한다 */
-//
+////
 //        // 1번 몬스터 생성
 //        Monster monster1 = new Monster();
 //        monster1.name = "또도가스";

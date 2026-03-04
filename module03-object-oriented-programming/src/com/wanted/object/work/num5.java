@@ -16,15 +16,12 @@ public class num5 {
         int count=0;
 
         for(int i=0; i<word.length(); i++){
-           countstr[i]= word;
+           countstr[i]= String.valueOf(word.charAt(i));
             if(countstr[i].equals(select)){
                 count++;
             }
-
         }
 
-
-
-
+        System.out.println("count = " + count);
     }
 }

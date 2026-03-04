@@ -36,7 +36,7 @@ public class num9 {
             System.out.println("FAIL [출석 횟수 부족] ("+present+"/20)");
         }else{
             System.out.println("=======결과========");
-            System.out.println("FAIL [점수 미달] (총점 "+total+")");
+            System.out.println("FAIL [점수 미달] (총점 "+(int)total+")");
             System.out.println("FAIL [출석 횟수 부족] ("+present+"/20)");
         }
 

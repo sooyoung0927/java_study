@@ -48,5 +48,6 @@ public class Application {
         *  이제 거의 다 해결했는데 아직도 문제인 거는
         *  여전히 필드에 접근할 수 있다는 것이다 */
 
+        monster3.hp=-500;
     }
 }

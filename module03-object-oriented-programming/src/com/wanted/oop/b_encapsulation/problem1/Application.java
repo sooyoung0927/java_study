@@ -19,7 +19,7 @@ public class Application {
         // 2번 몬스터 생성
         Monster monster2 = new Monster();
         monster2.name = "가라도스";
-        monster2.hp=-200;
+        monster2.setHP(-200);
 
         /*comment
         *  문제 상황 발생 !!
@@ -33,7 +33,7 @@ public class Application {
         // 3번 몬스터 생성
         Monster monster3 = new Monster();
         monster3.name = "피카츄";
-        monster3.setHP(-200);
+        monster3.setHP(200);
 
         System.out.println("monster3.name = " + monster3.name);
         System.out.println("monster3.hp = " + monster3.hp);

@@ -11,11 +11,15 @@ public class Application {
         *  new 뒤에 클래스명은 사실 생성자라고 불리는 메소드를 호출하는 구문이다
         *  하지만 우리는 지금까지 저런 메서드를 만든 적이 없다
         *  compiler가 매개변수가 없는 생성자는 자동으로 추가를 해준다
+        *  --------
+        *  = 객체를 생성할 때 한 번 무조건 실행되는 함수
+        *  = 클래스와 같은 이름을 가진 함수
         *  */
 
         UserDTO user = new UserDTO();
         System.out.println("user의 초기값 : "+user);
 
         UserDTO user2 = new UserDTO("id","pwd","sooy", LocalDateTime.now());
+        //System.out.println("user2 = " + user2);
     }
 }

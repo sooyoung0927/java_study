@@ -18,6 +18,7 @@ public interface InterfaceProduct {
     // public void test(){}
 
     void methodA();
+
     static void staticMethod(){
      // static 메서드는 구현부 작성이 가능하다
     }

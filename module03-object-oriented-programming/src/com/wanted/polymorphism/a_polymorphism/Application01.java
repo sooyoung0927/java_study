@@ -54,6 +54,8 @@ public class Application01 {
         System.out.println("=====클래스 형 변환=====");
         ((Raccoon) a1).bite(); // 상속관계가 있어야만 이런식으로 형 변환 가능
         ((Koala)a2).sleep();
+        // Animal에는 bite랑 sleep가 없는데
+        // 다형성 + 형변환을 통해서 상속 클래스의 메서드를 사용할 수 있게 됨
 
     }
 }

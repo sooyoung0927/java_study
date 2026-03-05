@@ -4,7 +4,7 @@ public class Application {
     public static void main(String[] args) {
         /*comment
         *  static 키워드를 이용한 singleton 패턴
-        *  Application이 실행될 때 어떤 클래스가 최조 1번만 메모리에 할당 되고
+        *  Application이 실행될 때 어떤 클래스가 최초 1번만 메모리에 할당 되고
         *  그 메모리에 인스턴스를 만들어서 하나의 인스턴스를 공유해 사용하여 메모리 낭비를 방지할 수 있게 하는 디자인 패턴  */
 
         /*comment

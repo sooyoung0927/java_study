@@ -33,7 +33,7 @@ public class Server {
         Scanner sc = new Scanner(System.in);
 
         while(true){
-            System.out.println("============옵션를 선택하세요ㅗ===========");
+            System.out.println("============옵션를 선택하세요===========");
             System.out.println("1. 토마토 추가");
             System.out.println("2. 패티 추가");
             System.out.println("3. 소스 추가");

@@ -1,4 +1,4 @@
-package com.wanted.object.work;
+package arrayclass_prac;
 
 public class num4 {
     public static void main(String[] args) {

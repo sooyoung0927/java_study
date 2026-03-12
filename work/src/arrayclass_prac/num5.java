@@ -1,4 +1,4 @@
-package com.wanted.object.work;
+package arrayclass_prac;
 
 import java.util.Scanner;
 

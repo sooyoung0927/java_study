@@ -29,6 +29,17 @@ public class IfDeep {
 
         // 비효율적인 조건 순서 테스트 : 발생 확률이 적은 걸 먼저
         // age가 19와 같은지 비교 후 else 검사
+        System.out.println("========효율적 조건 순서=========");
+        long startTime2 = System.nanoTime(); // 시작시간 체크
+
+        if(age > 19){ //자주 발생하는 조건
+            discount = "학생 할인 가능";
+        } else{
+            discount = "할인 불가";
+        }
+        long endTime2 = System.nanoTime(); // 끝나는 시간 체크
+        System.out.println("결과 : "+discount+ ", 시간 : "+ (endTime2-startTime2)+ "(ns)");
+
         System.out.println("========비효율적 조건 순서=========");
         long startTime = System.nanoTime(); // 시작시간 체크
 
@@ -41,15 +52,5 @@ public class IfDeep {
         System.out.println("결과 : "+discount+ ", 시간 : "+ (endTime-startTime)+ "(ns)");
 
 
-        System.out.println("========효율적 조건 순서=========");
-        long startTime2 = System.nanoTime(); // 시작시간 체크
-
-        if(age > 19){ //자주 발생하는 조건
-            discount = "학생 할인 가능";
-        } else{
-            discount = "할인 불가";
-        }
-        long endTime2 = System.nanoTime(); // 끝나는 시간 체크
-        System.out.println("결과 : "+discount+ ", 시간 : "+ (endTime2-startTime2)+ "(ns)");
     }
 }

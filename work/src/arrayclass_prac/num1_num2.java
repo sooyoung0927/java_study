@@ -1,4 +1,4 @@
-package com.wanted.object.work;
+package arrayclass_prac;
 
 public class num1_num2 {
     public static void main(String[] args) {
@@ -9,6 +9,9 @@ public class num1_num2 {
             num[i]=i+1;
             System.out.println(num[i]);
         }
+
+        int a = 10;
+        String str = "helloworld";
 
         System.out.println("====");
 

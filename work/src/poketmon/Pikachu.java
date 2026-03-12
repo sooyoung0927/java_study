@@ -1,4 +1,4 @@
-package com.wanted.work;
+package poketmon;
 
 public class Pikachu extends Poketmon{
     @Override

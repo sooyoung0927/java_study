@@ -1,4 +1,4 @@
-package com.wanted.work;
+package poketmon;
 
 public class Turtle extends Poketmon{
     @Override

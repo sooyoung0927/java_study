@@ -1,4 +1,4 @@
-package com.wanted.work;
+package poketmon;
 
 import java.util.Scanner;
 
